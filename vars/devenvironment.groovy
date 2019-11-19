@@ -11,7 +11,7 @@ def call(String buildStatus = 'DEPLOY INTO DEV ENVIROINMENT') {
     slackSend (color: colorCode, message: summary)
   } 
   emailext (
-      to: 'revathims1998@gmail.com',
+      to: 'uvtara333@gmail.com',
       subject: subject,
       body: details,
       recipientProviders: [[$class: 'DevelopersRecipientProvider']]
